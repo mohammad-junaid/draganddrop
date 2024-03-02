@@ -1,0 +1,7 @@
+.cart-drop-area{
+    border: 2px dashed #aaa;
+    min-height: 100px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 20%;
+}

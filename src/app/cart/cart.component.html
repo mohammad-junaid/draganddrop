@@ -1,0 +1,5 @@
+<div class="cart-drop-area" cdkDropList [cdkDropListData]="cart" (cdkDropListDropped)="onDrop($event)">
+    <div *ngFor="let item of cart;" cdkDrag [cdkDragData]="item">
+        {{item.name}}
+    </div>
+</div>
